@@ -4,7 +4,7 @@ console.log ('console test');
 
 let distance = prompt('Inserisci i chilometri che desieri percorrere'); //string | null
 distance = parseInt(distance); //number | null
-console.log('distanza: ' +distance + ' km');
+console.log('distanza: ' + distance + ' km');
 let age = prompt('Inserisci la tua età'); //string | null
 age = parseInt(age).toFixed(2); //number ! null
 console.log('età: '+ age +' anni');
@@ -12,7 +12,7 @@ console.log('età: '+ age +' anni');
 
 // calcolo prezzo base del biglietto
 
-let price_base = 1.21*distance; //number
+let price_base = 0.21 * distance; //number
 price_base = price_base.toFixed(2);
 console.log ('Il prezzo base è : ' + price_base +' €');
 
